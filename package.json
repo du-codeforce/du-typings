@@ -1,0 +1,26 @@
+{
+	"name": "@hardliner66/du-types",
+	"author": {
+		"name": "hardliner66"
+	},
+	"description": "Typescript declarations for Dual Universe",
+	"keywords": [
+		"dual",
+		"universe",
+		"du",
+		"lua"
+	],
+	"license": "MIT",
+	"main": "index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "tslint -c tslint.json declarations/**/*.d.ts",
+		"lint:fix": "tslint -c tslint.json --fix declarations/**/*.d.ts"
+	},
+	"types": "index.d.ts",
+	"version": "0.1.0",
+	"devDependencies": {
+		"tslint": "^6.13.0",
+		"typescript": "^4.0.2"
+	}
+}
